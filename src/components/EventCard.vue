@@ -21,6 +21,9 @@ defineProps({
   cursor: pointer;
   border: 1px solid #39495c;
   margin-bottom: 18px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .event-card:hover {
   transform: scale(1.01);
